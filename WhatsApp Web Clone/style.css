@@ -20,6 +20,7 @@ ul{
 
 .user-photo{
     width: 40px;
+    height: 40px;
     background-color: #ccc;
     border-radius: 50%;
     margin: 10px;
@@ -85,4 +86,126 @@ ul{
     font-size: 13px;
 }
 
+.search-container{
+    height: 50px;
+    width: 100%;
+    padding-left: 7.5px;
+    padding-top: 7.5px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    position: relative;
+    color: #bdc1c3;
+}
 
+#contact-search{
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    font-size: 14px;
+}
+
+#search{
+    border: none;
+    height: 35px;
+    width: 385px;
+    padding-left: 60px;
+    border-radius: 17.5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+#search::placeholder{
+    color: #bdc1c3;
+}
+
+.contacts-container{
+    height: auto;
+    background-color: #fff;
+}
+
+.content-box{
+    display: flex;
+    cursor: pointer;
+    height: 72px;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.content-box:last-child{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.content-box:hover{
+    background-color: #f4f5f5;
+}
+
+.active-chat{
+    background-color: #e9ebeb;
+}
+
+.active-chat:hover{
+    background-color: #e9ebeb;
+}
+
+.content-box .user-photo{
+    width: 50px;
+    height: 50px;
+}
+
+.user-info{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.user-info p, .message-info p{
+    margin: 0;
+}
+
+.message-info{
+    padding-top: 10px;
+}
+
+.user-name{
+    font-size: 16px;
+    color: #000;
+}
+
+.user-messagepreview{
+    font-size: 14px;
+    color: #454545;
+}
+
+.fa-check-double{
+    margin-left: 5px; 
+    color: #4fc3f7;
+}
+
+.message-info{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.message-info .message-time{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.message-info .message-pending{
+    background-color: #09d261;
+    color: #fff;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    line-height: 19px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.active-chat .message-pending{
+    background-color: #e9ebeb;
+}
