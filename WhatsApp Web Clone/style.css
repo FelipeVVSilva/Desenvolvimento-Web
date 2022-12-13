@@ -209,3 +209,44 @@ ul{
 .active-chat .message-pending{
     background-color: #e9ebeb;
 }
+
+.chat-container{
+    width: calc(100% - 30%);
+    height: 100%;
+    position: absolute;
+    left: 30%;
+    top: 0;
+    background-color: #ccc;
+}
+
+.chat-navbar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: #eee;
+    border-left: 1px solid #ddd;
+    position: relative;
+}
+
+.contactinfo-container .user-name{
+    display: flex;
+    font-size: 16px;
+}
+
+.chattools-container{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.chattools-container i{
+    color: #80868a;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
